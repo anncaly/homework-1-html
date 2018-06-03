@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "AvenirNextBold"; 
+	src: url("../fonts/AvenirNextBold.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: 100%;
+	font-family: "AvenirNextBold"; 
+}
+.widget {
+	width: 612px;
+	display: block;
+	margin: 120px auto;
+	-moz-box-shadow: 1px 3px 45px 5px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 1px 3px 45px 5px rgba(0,0,0,0.75);
+	box-shadow: 1px 3px 45px 5px rgba(0,0,0,0.75);
+}
+.widget-item {
+	width: calc(100%/3);
+	display: block;
+	float: left;
+	height: 204px;
+	text-align: center;
+}
+.item1 {
+	background-color: #06b3db;
+}
+.item2 {
+	background-color: #4ed486;
+}
+.item3 {
+	background-color: #6139f6;
+}
+.item4 {
+	background-color: #e3b63d;
+}
+.item5 {
+	background-color: #dc3d66;
+}
+.item6 {
+	background-color: #bd54cd;
+}
+.icon {
+	fill: #fff;
+	margin-top: 35px;
+	height: 88px;
+}
+.icon-rain {
+	width: 89px;
+}
+.icon-fog {
+	width: 80px;
+}
+.icon-sun {
+	width: 85px;
+}
+.icon-cr {
+	width: 84px;
+}
+.icon-moon {
+	width: 62px;
+	margin-top: 10px;
+}
+.icon-cloud {
+	width: 86px;
+}
+.widget-item-title,
+.widget-item-temp {
+	color: #fff;
+	text-transform: uppercase;
+}
+.widget-item-bottom .widget-item-title {
+	margin-bottom: 7px;
+}
+.widget-item-temp {
+  margin-top: 5px;
+}
+.widget-item-bottom {
+	height: 50%;
+	background-color: #b13253;
+	font-size: 12px;
+	padding: 0px 20px;
+}
+.widget-item-bottom ul {
+	margin: 0;
+  padding: 0;
+}
+.widget-item-bottom ul li {
+	list-style-type: none;
+}
+.bottom-item {
+	display: inline-block;
+	width: 23%;
+	margin-top: 7px;
+}
+.bottom-item .icon {
+	width: 23px;
+	height: 23px;
+	margin-top: 0px;
+}
+
+
